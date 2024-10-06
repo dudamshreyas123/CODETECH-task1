@@ -30,31 +30,26 @@ This is a Python script that allows you to check the strength of passwords. It u
 
 ## Usage
 
-1. Clone the repository:
 
-```sh
-git clone https://github.com/Sharma-IT/Password-Strength-Checker.git
-```
-
-2. Change into directory:
+1. Change into directory:
 
 ```sh
 cd Password-Strength-Checker
 ```
 
-3. Install the `zxcvbn` library:
+2. Install the `zxcvbn` library:
 
 ```
 pip3 install zxcvbn
 ```
 
-4. Run the script:
+3. Run the script:
 
 ```
 python password_strength_checker.py.
 ```
 
-5. Follow the prompts to enter the number of passwords to test, the path to the weak wordlist file (optional), and the path to the banned wordlist file (optional). Enter the passwords to test when prompted.
+4. Follow the prompts to enter the number of passwords to test, the path to the weak wordlist file (optional), and the path to the banned wordlist file (optional). Enter the passwords to test when prompted.
 
 **NOTE:** To exit the tool, enter 0 when prompted for the number of passwords to test.
 
